@@ -1,0 +1,17 @@
+/* Recipe.css */
+
+
+.groove {border-style: groove;}   /* giving groove border using CSS */
+
+
+
+.h1_color {color: #9E4784;}     /* Adding text colour to the text inside h1 tag */
+
+
+
+.h2_color {color: #2E8A99;}     /* Adding text colour to the text inside h2 tag */
+
+.img{
+    border-radius: 50%;               /* Styling Images using CSS */
+             }
+             
