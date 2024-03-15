@@ -1,17 +1,19 @@
-/* Recipe.css */
+/* Recipe.css */              /* Styling the webpage using CSS */
 
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/035/585/037/original/blueberry-cake-in-cartoon-style-on-purple-background-doodle-illustration-for-poster-banner-website-advertisement-illustration-with-colorful-sweet-dessert-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}                                 /* Inserting background image */
+/*
+body {font-size: larger;} */      /* making the font size larger */
 
 .groove {border-style: groove;}   /* giving groove border using CSS */
 
-
-
 .h1_color {color: #9E4784;}     /* Adding text colour to the text inside h1 tag */
-
-
 
 .h2_color {color: #2E8A99;}     /* Adding text colour to the text inside h2 tag */
 
-.img{
-    border-radius: 50%;               /* Styling Images using CSS */
-             }
+.img {border-radius: 50%;}        /* Styling Images using CSS */
              

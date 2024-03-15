@@ -4,27 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Reference Guide</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> <i> HTML Reference Guide </i> </h1>  <!-- Giving the heading -->
+    <h1 class="title"> <i> HTML Reference Guide </i> </h1>  <!-- Giving the heading -->
     <ul>
         <li> HTML is the standard markup language for creating Web pages. </li>
-        <li> HTML stands for <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage </li>
+        <li> HTML stands for <b><u>H</u></b>yper <b><u>T</u></b>ext <b><u>M</u></b>arkup <b><u>L</u></b>anguage </li>
         <li> HTML describes the structure of a Web page </li>
         <li> HTML consists of a series of elements </li>
         <li> HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc. </li>
     </ul>
-    <h2> What is an HTML Element? </h2>
-    <p> An HTML element is defined by a start tag, some content, and an end tag: </p>
-    <ul>
-        <li> The <!DOCTYPE html> declaration defines that this document is an HTML5 document </li>
-        <li> The <html> element is the root element of an HTML page </li>
-        <li> The <head> element contains meta information about the HTML page </li>
-        <li> The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab) </li>
-        <li> The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. </li>
-        <li> The <h1> element defines a large heading </li>
-        <li> The <p> element defines a paragraph </li>
-    </ul> 
+
+    <div>
+        <h2> What is a HTML Tag? </h2>
+        <ul> 
+            <li> Tags are the basic building blocks of a web page. 
+                <br>They tell the browser how the information is to be displayed on the web page. 
+                <br>HTML tags not case sensitive. </li> <hr>
+            <li> In HTML document, a tag name begins with an opening angular bracket (&lt;) and ends with losing angular bracket (&gt;). 
+                <p> For example, <br>
+                    &lt;TagName&gt; content &lt;/TagName&gt; <br>
+                    &lt;TagName&gt; - Opening Tag <br>
+                    &lt;/TagName&gt; - Closing Tag <br>
+                    </p> </li> <hr>
+            <li> The HTML tags can be categorised as: 
+                <ol>
+                    <li> <b>Container Tags:</b> The tags that have both opening and closing tags are called
+                        Container Tags. </li>
+                    <li> <b>Empty Tags:</b> Empty tags contain only opening tags. They do not have a closing
+                        tag. These tags do not enclose any data. </li>
+                </ol>
+            </li> <hr>
+        </ul> 
+        
+    </div>
+
+    <div>
+    <h2> What is a HTML Element? </h2>
+    <p> An HTML element is defined by a start tag, some content, and an end tag: </p> </div>
+
+    <table class="column">                           <!-- inserting a table to explain the tags -->
+        <tr>
+            <th>Tag</th>
+            <th>Description</th>
+        </tr>
+        <tr class="row1">
+            <td> &lt;html&gt;</td>     <!-- use &lt; for opening tag --> <!-- use &gt; for closing tag -->
+            <td> Defines an HTML document </td> </tr>
+        <tr class="row1"> 
+            <td> &lt;body&gt; </td>
+            <td> Defines the document's body </td> </tr>
+        <tr class="row1"> 
+            <td> &lt;h1&gt; to &lt;h6&gt; </td>
+            <td> Defines header 1 to header 6 </td> </tr>
+        <tr class="row1"> 
+            <td> &lt;p&gt; </td>
+            <td> Defines a paragraph </td> </tr>
+        <tr class="row1"> 
+            <td> &lt;br&gt; </td>
+            <td> Inserts a single line break </td> </tr>
+        <tr class="row1"> 
+            <td> &lt;hr&gt; </td>
+            <td> Defines a horizontal rule </td> </tr>
+        <tr class="row1"> 
+            <td> &lt;!--&gt; </td>
+            <td> Defines a comment </td> </tr>
+    </table>
     
+    <div>
+        <h2> HTML DOCUMENT STRUCTURE </h2>
+        <p> The markup tags tell the Web browser how to display the web page. An HTML file is saved with. htm or .html extension. </p> </div>
+     
 </body>
 </html>
