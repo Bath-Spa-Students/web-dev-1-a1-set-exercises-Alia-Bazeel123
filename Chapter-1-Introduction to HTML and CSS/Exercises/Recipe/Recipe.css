@@ -6,8 +6,12 @@ body{
     background-size: cover;
     background-position: center;
 }                                 /* Inserting background image */
+
+body{color: black;}
 /*
-body {font-size: larger;} */      /* making the font size larger */
+.title{color:#F6B17A;} */
+
+body {font-size: larger;}         /* making the font size larger */
 
 .groove {border-style: groove;}   /* giving groove border using CSS */
 
