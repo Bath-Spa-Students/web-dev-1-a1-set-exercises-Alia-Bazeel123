@@ -1,10 +1,18 @@
+body{background-image: url('https://onaircode.com/wp-content/uploads/2019/09/simple-pattern-css-1024x580.jpg');
+    /*background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+}
 
+body{color: white;}
 
-.title{color:#6420AA;}
+.title{color:#F6B17A;} 
 
-h2{color: #FF3EA5;}
+h2{color: #2D4356;} 
 
-table,th,td{border: 1px solid black;}
+table,th,td{border: 1px solid black;
+    color: black;
+}
 
 /* 
 table{text-align: center;} */
@@ -14,7 +22,9 @@ table{text-align: center;} */
 }
 
 .row1{background-color: lightgrey; 
-    text-align: center;
+    text-align: left;
 }
 
 body {font-size: larger;}          /* making the font size larger */
+
+.structure{border-style: groove;}     /* html structure inside groove bordered box */

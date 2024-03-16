@@ -35,7 +35,7 @@
                     <li> <b>Empty Tags:</b> Empty tags contain only opening tags. They do not have a closing
                         tag. These tags do not enclose any data. </li>
                 </ol>
-            </li> <hr>
+            </li>
         </ul> 
         
     </div>
@@ -74,7 +74,88 @@
     
     <div>
         <h2> HTML DOCUMENT STRUCTURE </h2>
-        <p> The markup tags tell the Web browser how to display the web page. An HTML file is saved with. htm or .html extension. </p> </div>
+        <ul>
+            <li>The markup tags tell the Web browser how to display the web page. An HTML file is saved with. htm or .html extension. </li>
+
+        <li> The basic Structure of HTML Document is as follows: 
+            <p class="structure"> &lt;html&gt;
+            <br> &lt;head&gt;
+            <br> &lt;title&gt; Title of the web pages &lt;/title&gt;
+            <br> &lt;/head&gt;
+            <br> &lt;body&gt; Content of the page &lt;/body&gt;
+            <br> &lt;/html&gt; </p> </li>
+        <li> A HTML page is divided into two sections called Head and Body. </li> 
+        <li> Head contains the information which is not to be shown on the web page. </li>
+        <li> Body contains the information which is to be shown on the web page. </li> </ul> </div>
+
+    <div> 
+        <h2> Tags in Detail </h2> 
+    <ul> <li> <b><u>&lt;HTML&gt; Tag:</u></b> 
+            <br> It tells the web browser that the text contained between &lt;html&gt;
+                 and &lt;/html&gt; is a web page. It can be viewed by the web browser. Every
+                 webpage coding must start with the &lt;html&gt; tag and end with the &lt;/html&gt; tag. </li> <hr>
+         <li> <b><u>&lt;Head&gt; Tag:</u></b> 
+            <br> The &lt;Head&gt; tag defines the header area of your web page. The
+            information given in &lt;Head&gt; tag tells the computer that this information is not
+            to be shown on the webpage. Every webpage coding must have its heading tag. </li> <hr>
+         <li> <b><u>&lt;Title&gt; Tag:</u></b>  
+            <br> It tells the web browser that the text contained between &lt;title&gt;
+                 and &lt;/title&gt; is the text that does not form part of the web page. It will be
+                 shown on the Title Bar of your web browser. The use of the title bar is not
+                 mandatory. <br>
+                 If you are not using a title bar your web browser will show the file name and its path as the title of your webpage. </li> <hr>
+         <li> <b><u>&lt;Body&gt; Tag:</u></b> 
+            <br> The &lt;body&gt; Tag tells the web browser that text contained
+                 between &lt;body&gt; and &lt;/body&gt; tags is to be shown on the webpage. It is a
+                 container tag. </li> <hr>
+         <li> <b><u>CENTER tag &lt;center&gt;:</u></b> 
+            <br> The &lt;center&gt; tag is used to put an object into the center of the web page. </li> <hr>
+         <li> <b><u>BR (Break line) tag &lt;br&gt;:</u></b> 
+            <br> &lt;br&gt; tag inserts a single line break. It is useful for writing a poem or an address,
+                 where the division of lines is significant </li> <hr>
+         <li> <b><u>HR (Horizontal Rule) tag &lt;hr&gt;:</u></b> 
+            <br> &lt;hr&gt; tag is used for creating a horizontal line in web page. It is used to separate
+                 content (or define a change) in web page. </li> <hr>
+         <li> <b><u>PARAGRAPH &lt;p&gt; Tag:</u></b> 
+            <br> Normally, we create space between two paragraphs using Enter key, but in
+                 HTML browser does not understand the space created by the Enter key.
+                 Therefore we use paragraph &lt;p&gt; tag to inform the browser about a sentence to
+                 be started after the Enter key. </li> <hr>
+         <li> <b><u>BOLD Tag &lt;b&gt;:</u></b> 
+            <br> Bold tag is used to display the text in bold font. This tag is generally used to give
+                 headings or to highlight important. The idea here is to use the bold tag in quick
+                 formatting situations. </li> <hr>
+         <li> <b><u>ITALIC Tag &lt;i&gt;:</u></b> 
+            <br>The italic tags should be used to highlight a key word or phrase. These tags are
+                not intended to stylize or shape your font face. Rather, use them to emphasize
+                text or words. </li> <hr>
+         <li> <b><u>UNDERLINE Tag &lt;u&gt;:</u></b> 
+            <br>Underline tag helps to underline the text. </li> <hr>
+         <li> <b><u>SUBSCRIPT &lt;sub&gt; Tag:</u></b> 
+            <br>You can use the &lt;sub&gt; tag to create a subscript content (text) in the web page.
+                This tag puts the character slightly below the line of regular text. </li> <hr>
+         <li> <b><u>SUPERSCRIPT &lt;sup&gt; Tag:</u></b> 
+            <br>You can use the &lt;sup&gt; tag to create a superscript content (text) in the web
+            page. This tag puts the character slightly above the line of regular text. </li> </ul> </div>
+            
+    <div> 
+        <h2> CREATING LISTS IN HTML </h2> 
+        <p> HTML lists appear in web browsers as bulleted lines of text. Each list type
+            utilizes it's own unique list tag, which we'll demonstrate below. Types of lists. </p>
+        <ol type="a">       <!-- using type with ol to change list type -->
+            <li> Ordered Lists (numbers) </li>
+            <li> Unordered Lists (bullets) </li> </ol>
+        <p> Ordered and Unordered list are created using &lt;li&gt;&lt;/li&gt; tag. </p>
+        <div><ul> <li><b>Ordered List</b>
+             <br> Ordered list &lt;ol&gt; is used to make the numbered sequence of items. By default,
+                it starts with 1. Use &lt;ol&gt; tag to create an ordered list and &lt;li&gt; tag to create
+                items of the list. </li> <br>
+             <li><b>Unordered List</b>
+             <br> An unordered list (&lt;ul&gt;) signifies to a web browser that all list items contained
+                inside the &lt;ul&gt; tag should be rendered with a bullet preceding the text. The
+                default bullet type for most web browsers is a full disc (black circle). </li> </ul>
+        </div>
+    </div>
      
 </body>
 </html>
