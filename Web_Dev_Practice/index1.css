@@ -1,0 +1,12 @@
+body{
+    background-image: "Background(1)";
+}
+
+.h1{
+    border: 2px ;
+}
+
+#img1{             /* float for image1 */
+    width: 30%;
+    float: right;
+}
