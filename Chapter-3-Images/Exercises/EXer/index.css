@@ -1,0 +1,16 @@
+
+body{
+    align-content: center;
+}
+
+.img1{
+    filter: opacity(40%);
+}
+
+.img2{
+    filter: contrast(30%);
+}
+
+.img3{
+    filter: brightness(20%);
+}
