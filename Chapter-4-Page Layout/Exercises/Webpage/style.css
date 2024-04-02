@@ -4,11 +4,18 @@ header{
     background-color: #17072b;
     color: #FFFFFF;
     font-family: 'Tahoma';
+    
+    padding: 10px;
+}
+
+main{
+    display: flex;
 }
 
 body{
     font-family: 'Arial';
     color: #000000;
+    font-size: x-large;
 }
 
 .intro {                     /*styling class intro*/
@@ -18,12 +25,26 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    place-items: center;}
+    place-items: center;
+    /*width: 0px;*/
+}
 
 aside{
     background-color: #172d67;
     color: #FFFFFF;
     font-family: 'Arial';
+
+    padding-left: 30px;
+    margin-top: 15px;
+    width: 1000px;
+    float: right;
+}
+
+#aside-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    margin-left: 10px;
 }
 
 ul{

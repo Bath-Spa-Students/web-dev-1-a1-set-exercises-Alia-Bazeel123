@@ -1,0 +1,16 @@
+body{
+    background-color: lightgrey;
+    align-items: center;
+    margin: 0;
+}
+
+#vid{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
