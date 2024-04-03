@@ -1,4 +1,9 @@
+/*
 body{background-image: url('https://onaircode.com/wp-content/uploads/2019/09/simple-pattern-css-1024x580.jpg');
+}
+*/
+
+body{background-color: #49243E;
     /*background-repeat: no-repeat;
     background-size: cover;
     background-position: center;*/
@@ -6,9 +11,9 @@ body{background-image: url('https://onaircode.com/wp-content/uploads/2019/09/sim
 
 body{color: white;}
 
-.title{color:#F6B17A;} 
+.title{color:#F2613F;} 
 
-h2{color: #2D4356;} 
+h2{color: #D875C7;} 
 
 table,th,td{border: 1px solid black;
     color: black;

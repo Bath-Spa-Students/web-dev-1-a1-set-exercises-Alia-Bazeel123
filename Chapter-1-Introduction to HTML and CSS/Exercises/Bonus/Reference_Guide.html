@@ -57,7 +57,8 @@
     <div>
     <h2> What is a HTML Element? </h2>
     <p> An HTML element is defined by a start tag, some content, and an end tag: </p> </div>
-
+    
+    <pre> <!--define the block of preformatted text-->
     <table class="column">                           <!-- inserting a table to explain the tags -->
         <tr>
             <th>Tag</th>
@@ -85,19 +86,21 @@
             <td> &lt;!--&gt; </td>
             <td> Defines a comment </td> </tr>
     </table>
-    
+    </pre>
+
     <div>
         <h2> HTML DOCUMENT STRUCTURE </h2>
         <ul>
             <li>The markup tags tell the Web browser how to display the web page. An HTML file is saved with. htm or .html extension. </li>
 
-        <li> The basic Structure of HTML Document is as follows: 
+        <li> The basic Structure of HTML Document is as follows:
+            <code> <!--The <code> tag is used to define a piece of computer code.-->
             <p class="structure"> &lt;html&gt;
             <br> &lt;head&gt;
             <br> &lt;title&gt; Title of the web pages &lt;/title&gt;
             <br> &lt;/head&gt;
             <br> &lt;body&gt; Content of the page &lt;/body&gt;
-            <br> &lt;/html&gt; </p> </li>
+            <br> &lt;/html&gt; </p> </code> </li>
         <li> A HTML page is divided into two sections called Head and Body. </li> 
         <li> Head contains the information which is not to be shown on the web page. </li>
         <li> Body contains the information which is to be shown on the web page. </li> </ul> </div>
@@ -151,7 +154,7 @@
          <li> <b><u>SUPERSCRIPT &lt;sup&gt; Tag:</u></b> 
             <br>You can use the &lt;sup&gt; tag to create a superscript content (text) in the web
             page. This tag puts the character slightly above the line of regular text. </li> </ul> </div>
-            
+
     <div> 
         <h2> CREATING LISTS IN HTML </h2> 
         <p> HTML lists appear in web browsers as bulleted lines of text. Each list type
@@ -159,7 +162,7 @@
         <ol type="a">       <!-- using type with ol to change list type -->
             <li> Ordered Lists (numbers) </li>
             <li> Unordered Lists (bullets) </li> </ol>
-        <p> Ordered and Unordered list are created using &lt;li&gt;&lt;/li&gt; tag. </p>
+        <p> Ordered and Unordered list are created using &lt;li&gt;  &lt;/li&gt; tag. </p>
         <div><ul> <li><b>Ordered List</b>
              <br> Ordered list &lt;ol&gt; is used to make the numbered sequence of items. By default,
                 it starts with 1. Use &lt;ol&gt; tag to create an ordered list and &lt;li&gt; tag to create
@@ -170,6 +173,52 @@
                 default bullet type for most web browsers is a full disc (black circle). </li> </ul>
         </div>
     </div>
-     
+
+    <h1 class="title"> <i> CSS Reference Guide </i> </h1>  <!-- Giving the 2nd heading -->
+    <ul>
+        <li> CSS is a stylesheet language used to describe the presentation of a document written in HTML or XML. </li>
+        <li> CSS stands for <b><u>C</u></b>ascading <b><u>S</u></b>tyle <b><u>S</u></b>heets </li>
+        <li> CSS is a fundamental technology used in web development for styling web pages. </li>
+        <li> Ways to Apply CSS (inline, internal, external) </li>
+        <li> CSS offers a wide range of properties that control almost every aspect of how 
+            HTML elements are displayed on a web page. </li>
+    </ul>
+
+    <div>
+        <h2> Some commonly used CSS properties: </h2>
+        <ol> 
+            <li><b><u>color</u>: </b>Specifies the text color. <br>
+                <code>color: red;</code> </li> <br>
+            <li><b><u>background-color</u>: </b>Sets the background color of an element. <br>
+                <code>background-color: #FFFF00;</code> </li> <br>
+            <li><b><u>font-family</u>: </b>Defines the font family for text. <br>
+                <code>font-family: Arial, sans-serif;</code> </li> <br>
+            <li><b><u>font-size</u>: </b>Sets the size of the font. <br>
+                <code>font-size: 16px;</code> </li> <br>
+            <li><b><u>font-weight</u>: </b>Specifies the boldness of the font. <br>
+                <code>font-weight: bold;</code> </li> <br> 
+            <li><b><u>text-align</u>: </b>Aligns the text within an element. <br>
+                <code>text-align: center;</code> </li> <br>
+            <li><b><u>padding</u>: </b>Sets the padding space inside an element. <br>
+                <code>padding: 10px;</code> </li> <br>
+            <li><b><u>margin</u>: </b>Sets the margin space outside an element. <br>
+                <code>margin: 20px;</code> </li> <br>
+            <li><b><u>border</u>: </b>Specifies the border of an element. <br>
+                <code>border: 1px solid #000000;</code> </li> <br>
+            <li><b><u>display</u>: </b>Defines how an element is displayed. <br>
+                <code>display: block;</code> </li> <br>
+            <li><b><u>float</u>: </b>Positions an element to the left or right of its container. <br>
+                <code>float: left;</code> </li> <br>
+            <li><b><u>width</u>: </b>Sets the width of an element. <br>
+                <code>width: 300px;</code> </li> <br>
+            <li><b><u>height</u>: </b>Sets the height of an element. <br>
+                <code>height: 200px;</code> </li> <br>
+            <li><b><u>position</u>: </b>Specifies the positioning method of an element. <br>
+                <code>position: relative;</code> </li> <br>
+            <li><b><u>z-index</u>: </b>Sets the stack order of an element. <br>
+                <code>z-index: 1;</code> </li>
+        </ol> 
+    </div>
+
 </body>
 </html>
