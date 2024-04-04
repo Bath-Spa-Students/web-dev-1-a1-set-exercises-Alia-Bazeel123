@@ -18,11 +18,23 @@ Create a simple petrol calculator. Your petrol calculator must include:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylsheet" href="calculator.css">  <!--linking CSS file-->
+    <script src="calculator.js"></script>         <!--linking JavaScript file-->
 </head>
 <body>
+    <div>
+        <h1> Petrol Calculator </h1>
+        
+        <label for="cpl">Enter the Cost of Petrol per Liter</label>
+        <input type="number" id="cpl" value="1.72" step="0.01" autofocus>
+        <br>
+        <label for="nlp">Enter the Number of Liters Purchased</label>
+        <input type="number" id="nlp" value="0" step="0.01">
+        <br>
+        <button id="cal">Calculate the Total Cost of the Petrol Purchased</button>
+        <br>
+        <p id="tc">Total Cost: $0.00</p>
+    </div>
 
-    <h1> Petrol Calculator </h1>
-    
-    
 </body>
 </html>
