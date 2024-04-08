@@ -6,4 +6,4 @@ function totalCost() {
     document.getElementsById('tc').innerText = 'Total Cost: $${tc.toFixed(2)}';
 }
 
-document.getElementsById('cal').addEventListener('click',CalculateTheTotalCost);
+document.getElementsById('calculate').addEventListener('click',CalculateTheTotalCost);
