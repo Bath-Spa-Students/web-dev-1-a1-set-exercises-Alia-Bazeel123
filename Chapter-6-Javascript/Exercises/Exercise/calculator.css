@@ -1,0 +1,59 @@
+
+/* Styling for input fields */
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Makes sure padding doesn't affect overall width */
+}
+
+input[type="number"]:focus {
+    border-color: #4A90E2;
+    outline: none; /* Removes the default focus outline */
+}
+
+/* Styling for the calculate button */
+button {
+    width: 100%;
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+
+
+
+
+
+
+
+
+
+
+body{            /*styling body using css properties*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #B0C5A4;
+    color: #D37676;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cal{            /*styling calculating button using css properties*/
+    background-color: #EBC49F;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    padding: 25px;
+}

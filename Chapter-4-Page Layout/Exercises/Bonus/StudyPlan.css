@@ -1,0 +1,89 @@
+body{
+    background-color: #A34343;     /*background colour for the body*/
+    margin: auto;                    /*to fit in the whole screen*/
+    color: #000000;
+}
+
+h3{
+    color: #E9C874;
+}
+
+header{
+    background-color: #35374B;     /*background colour for the body*/
+    color: #FFC8C8;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 14px;               /*distance between content and top border*/
+    padding-bottom: 7px;             /*distance between content and bottom border*/
+}
+
+nav{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;  /*places the options by utilising the whole space*/
+    margin-right: auto;              /*margin-lfet & right helps in placing the elements in the middle*/
+    margin-left: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.divL{
+    display: flex;
+    background-color: #BB8493;     /*background colour for the left aligned div*/
+    margin-left: 20px;               /*20px  -- left margin*/ 
+    border-radius: 5px;
+    font-size: large;
+    height: 200px;                   /*200px -- height*/
+    width: 500px;                    /*500px -- width*/
+    float: left;                     /*content will be displayed(floated) on the left side*/
+    padding-left: 20px;              /*distance between content and left border*/
+}
+
+.divR{
+    display: flex;
+    background-color: #BB8493;     /*background colour for the left aligned div*/
+    margin-left: 20px;               /*20px  -- left margin*/ 
+    border-radius: 5px;
+    font-size: large;
+    height: 200px;                   /*200px -- height*/
+    width: 500px;                    /*500px -- width*/
+    float: left;                     /*content will be displayed(floated) on the left side*/
+    padding-left: 20px;              /*distance between content and left border*/
+}
+
+.divC{
+    display: flex;
+    background-color: #BB8493;     /*background colour for the left aligned div*/
+    border-radius: 5px;
+    font-size: large;
+    height: 200px;                   /*300px -- height*/
+    width: 500px;                    /*500px -- width*/
+    float: right;                    /*content will be displayed(floated) on the right side*/
+    padding-right: 20px;              /*distance between content and left border*/
+}
+
+.divD{
+    display: flex;
+    background-color: #E9C874;
+    border-radius: 5px;
+    font-size: large;
+    height: 200px;                   /*300px -- height*/
+    width: 500px;                    /*500px -- width*/
+    float: right;                    /*content will be displayed(floated) on the right side*/
+    padding-right: 20px;              /*distance between content and left border*/
+}
+#divD{color: #49243E;}
+
+footer{
+    background-color: #35374B;
+    color: #FFC8C8;
+    font-size: large;
+    text-align: center;
+    padding: 7px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    margin: 0%;
+}
